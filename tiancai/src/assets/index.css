@@ -1,0 +1,954 @@
+@import url(/tiancaibao/style/swiper.css);
+.sign_btn {
+    left: auto;
+    right: 0;
+    top: 12px;
+    border: 1px solid #333;
+    padding: 4px 13px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.signFlot{
+    display: block;
+    background: rgba(0,0,0,.5);
+    border-radius: 20px;
+    border: none;
+    right: 15px;
+    top: 20px;
+    z-index: 99999;
+}
+.orange_btn{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/check_btn.png")no-repeat center center;
+    background-size: 100% 100%;
+}
+.orange_btn:hover{
+    color: #fff;
+}
+.cenBox{
+    width: 100%;
+    /*-webkit-box-shadow:0 0 10px rgba(0,0,0,.2);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,.2);
+    box-shadow:0 0 10px rgba(0,0,0,.2);*/
+    background:#ffffff ;
+    /*background: #FFFFFF url("/tiancaibao/pages/index/images/jbx.png") no-repeat -1px -1px;
+    background-size: 48px 50px;
+    border-radius: 5px;*/
+}
+#headOnce{
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+/*.purseOpen{
+    width: 92%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ecedf1;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 320px) {
+    .purseOpen{
+       width: 94%;
+  }
+}
+.purseOpen span i{
+    vertical-align: bottom;
+}*/
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-container img {
+     width: 100%;
+}
+.news_eye {
+    width: 86%;
+    height: 38px;
+    margin:0 auto;
+    border-bottom: 1px solid #ececec;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.gonggao {
+    background-image: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/notice.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+.news_eye ul.news_list {
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    line-height: 38px;
+    padding-left: 20px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.news_list a{
+    display: block;
+}
+.news_list .news_item{
+    display: block;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.newuser{
+    box-sizing: border-box;
+    width:100%;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.newuser ul{
+    overflow: hidden;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.newuser ul li{
+    float:left;
+}
+.newuser .new_item{
+    width:22%;
+    
+}
+.newuser .new_next{
+    width:4%;
+}
+.newuser .new_item i{
+    display: block;
+    width:50px;
+    height: 50px;
+    margin:0 auto;
+}
+.newuser .new_next i{
+    display: block;
+    height: 20px;
+    margin-top: 18px;
+}
+.newuser .new_next .progress{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/progress.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .new_next .progress_gray{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/progress_gray.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .register{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/register.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .register_gray{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/register_gray.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .real_name{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/real_name.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .real_name_gray{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/real_name_gray.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .risk_evaluation{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/risk_evaluation.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .risk_evaluation_gray{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/risk_evaluation_gray.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .first_lend{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/first_lend.png") no-repeat center;
+    background-size: contain;
+}
+.newuser .first_lend_gray{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/first_lend_gray.png") no-repeat center;
+    background-size: contain;
+}
+.newuser div a{
+    width:170px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    border-radius:20px;
+    margin:12px auto;
+}
+.newuser div p{
+    font-size: 14px;
+}
+.newuser div p span{
+    color:#ff5f33;
+}
+.nav_item {
+    width: 100%;
+    overflow: hidden;
+    /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display:-webkit-flex;
+    display: flex; */
+}
+.nav_a {
+    /* -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1; */
+    width: 25%;
+    float: left;
+    display: block;
+}
+.nav_a i.s_y {
+    display: block;
+    margin: 6px auto 2px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/s_y_03.png") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.nav_a i.cz_1 {
+    background-position: 0 0;
+}
+.nav_a i.safe_2 {
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/shop_center.png") no-repeat center center;
+    background-size: 85% 85%;
+    /* background-position: -88px 0; */
+}
+.nav_a i.active_p {
+    background-position: -170px 0;
+}
+.nav_a i.fir_p {
+    background-position: -253px 0;
+}
+.nav_a i {
+    font-style: normal;
+    color: #73b7f1;
+    font-size: 16px;
+}
+.nav_floor {
+    background-color: #fff;
+    width:92%;
+    margin:0 auto;
+}
+.nav_new:after{
+    display: block;
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    content: 'new';
+    font-size: 10px;
+    color: #fff;
+    background: #fd4a44;
+    width: 24px;
+    height: 12px;
+    line-height: 11px;
+    border-radius: 7px;
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f5f8;
+    overflow: hidden;
+}
+.wrapper .product_area {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper .product_area .current_wra {
+    overflow: hidden;
+    background: #ffffff;
+}
+.bg:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/3_03.png") no-repeat center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wrapper .product_area .current_wra .current_rate {
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+}
+.wrapper .product_area .current_wra .current_rate h1 {
+    font-size: 16px;
+    line-height: 35px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-bottom:1px solid #ececec;
+}
+.wrapper .product_area .current_wra .current_rate a{
+    overflow: hidden;
+    height:75px;
+}
+.wrapper .product_area .current_wra .current_rate a .std_in2{
+    width:36%;
+}
+.wrapper .product_area .current_wra .current_rate .curAticle{
+    width: 42%;
+}
+.w186{
+    width: 196px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.wrapper .product_area .current_wra .current_rate h1 i.bg_l{
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 12px;
+    margin-right: 5px;
+    width: 22px;
+    height: 20px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/self_icon.png") no-repeat center;
+    background-size: contain;
+}
+.wrapper .product_area .current_wra .current_rate h1 i.bg_r{
+    font-size: 12px;
+    color:#556677;
+    font-weight: normal;
+    margin-left:8px;
+    padding-top: 2px;
+}
+.wrapper .product_area .current_wra .current_rate div {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.wrapper .product_area .current_wra .current_rate .curAticle div{
+    width: 100%;
+}
+.wrapper .product_area .current_wra .current_rate div.btnP{
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    top:75px;
+    right:13px;
+}
+.wrapper .product_area .current_wra .current_rate div p:nth-child(2) {
+    height: 18px;
+    line-height: 18px;
+}
+.wrapper .product_area .current_wra .current_rate div.btnP a.btn{
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.wrapper .product_area .current_wra .current_rate div a.btn {
+    margin-left: 0;
+    margin-right: 0;
+}
+.active_id{
+    display: inline-block;
+    height: 20px;
+    max-width:50%;
+    line-height: 20px;
+    color: #fff;
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#fd4a44), to(#ffb102));
+    background: -moz-linear-gradient(left, #fd4a44, #ffb102);
+    background: -o-linear-gradient(left,#fd4a44, #ffb102);
+    border-radius: 20px;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+#active_id{
+    position: absolute;
+    top:515px;
+    right:15px;
+    z-index: 10;
+}
+@media screen and (max-width: 320px) {
+    .active_id {
+        max-width: 42%;
+    }
+ }
+.active_id img{
+    top: -6px;
+}
+.active_id a{
+    width:100%;
+    display:inlie-block;
+ }
+.active_id span{
+    display: inline-block;
+    padding-left:24px;
+    padding-right:6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bgf4fcff{
+    display: inline-block;
+    padding: 1px 3px;
+    height: 14px;
+    line-height: 14px;
+    border: 1px solid #f24c2c;
+    color: #f24c2c;
+    border-radius: 3px;
+}
+.bgBlue{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    padding: 1px 3px;
+    background: #e5f8ff;
+    color: #1ec0ff;
+    border-radius: 3px;
+}
+.wrapper .product_area .fixed {
+    background: #ffffff;
+    margin-bottom: 15px;
+}
+.data-bom{
+    background: #FFFFFF url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/1149.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.data-bom ul{
+    width: 100%;
+}
+.data_bto{
+    background: #ffffff;
+}
+.data_bto h2 i{
+    display: inline-block;
+    width:26px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/red_line.png") no-repeat center;
+}
+.data_bto ul li{
+    text-align: center;
+    width:50%;
+    float: left;
+}
+.data_bto ul{
+    width:100%;
+    overflow: hidden;
+}
+.borLeft{
+    border-right: 1px solid #ecedf1;
+}
+.b-bom{
+    padding: 32px 15px 32px;
+}
+.b-bom ul{
+    width:100%;
+    overflow: hidden;
+}
+.b-bom ul li{
+    width:33%;
+    float: left;
+    font-size:12px;
+}
+.b-bom ul li i{
+    display: inline-block;
+    width:36px;
+    height: 42px;
+}
+.b-bom ul li span{
+    display: block;
+    margin-top: 5px;
+}
+.b-bom ul li i.insurance{
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/index/images/risk_icon.png) no-repeat center;
+        -webkit-background-size: cover;
+    background-size: cover;
+}
+.b-bom ul li i.z_s{
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/index/images/infro_icon.png) no-repeat center;
+        -webkit-background-size: cover;
+    background-size: cover;
+}
+.b-bom ul li i.sa_fe{
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/index/images/netloan_icon.png) no-repeat center;
+        -webkit-background-size: cover;
+    background-size: cover;
+}
+.new_user_ps {
+    width: 100%;
+    height: 1px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 42px;
+}
+.new_user {
+    width: 90px;
+    /* height: 100px; */
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+.squered{
+    border: 1px solid #f24c2c;
+}
+.bgred{
+    background: #f24c2c;
+    color: #FFFFFF;
+}
+.bgred:hover,.bgred:active{
+    color: #FFFFFF;
+}
+/****签到遮罩*****/
+.shop_mast {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: -100%;
+    display: none;
+    z-index: 999;
+    /*已签到背景*/
+    /*未签到背景*/
+}
+.shop_mast .mast_bg {
+    text-align: center;
+    height: 372px;
+    width: 100%;
+    max-width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.shop_mast .mast_bg p.pt214 {
+    padding-top: 230px;
+}
+.shop_mast .mast_bg p.pt206 {
+    padding-top: 218px;
+}
+.shop_mast .mast_bg .record_dlog {
+    display: block;
+    width:128px;
+    height:38px;
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/index/images/signBtn.png) no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -64px;
+}
+.shop_mast .mast_bg .taste_dlog{
+    display: block;
+    width:128px;
+    height:38px;
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/index/images/tastbtn.png) no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: absolute;
+    bottom: -102px;
+    left: 50%;
+    margin-left: -64px;
+}
+.shop_mast .mast_bg .close_btn {
+    position: absolute;
+    bottom: -158px;
+    left: 50%;
+    margin-left: -23px;
+}
+.shop_mast .sign_yes {
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/sign_bg_01.png") no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.shop_mast .sign_no {
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/sign_bg_02.png") no-repeat center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+/*注册弹框*/
+.mask,.mask_vip {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: none;
+}
+.mask-wrap{
+    margin-top: 25%;
+}
+.mask-wrap img{
+    width: 84%;
+    max-width: 600px;
+}
+.mask-wrap .mask-btn {
+    width: 100%;
+    height: 80px;
+    bottom: 8%;
+}
+.mask-wrap .mask-btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.mask-wrap .clos{
+    display: block;
+    width: 40px;
+    height: 40px;
+    right: 4%;
+    cursor: pointer;
+}
+.mask_vip .mask-wrap .mask-btn{
+    bottom: 0px;
+    height: 60px;
+}
+.mask_vip .mask-wrap .clo{
+    width: 30px;
+    right: 18%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    border-radius: 50%;
+    background: #ffe200;
+    /*background: -webkit-linear-gradient(-90deg,#eee, #ffe200);
+    background: linear-gradient(left top, #eee, #ffe200);*/ /* 标准的语法 */
+}
+.pie_left, .pie_right {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;left: 0;
+}
+.left, .right {
+    display: block;
+    width:50px;
+    height:50px;
+    background: #ecedf1;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*transition:all 5s;*/
+    /*transform: rotate(30deg);*/
+}
+.pie_right, .right {
+    clip:rect(0,auto,auto,25px);
+}
+.pie_left, .left {
+    clip:rect(0,25px,auto,0);
+}
+.mask_std {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    left: 4px;
+    top: 4px;
+    background: #FFF;
+    position: absolute;
+    text-align: center;
+    line-height: 42px;
+    font-size: 12px;
+}
+
+/*圆环*/
+.white_bg{
+    background: #ffffff;
+}
+.line_hgt33{
+    line-height:33px;
+}
+.new_tit,.new_tit1,.new_tit2{
+    line-height: 34px;
+    padding: 5px 15px 5px 40px;
+    border-bottom: 1px solid #ececec;
+}
+.new_tit::before{
+    display: block;
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/self_icon.png") no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+.new_tit1::before{
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/new_tit2.png") no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+.new_tit2::before{
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/index/images/new_tit3.png") no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+.bor_t{
+    border-top: 1px solid #ecedf1;
+}
+.squered_1{
+    padding-top:3px;
+    padding-bottom:2px;
+    padding-left:0;
+    border:1px solid #f24c2c;
+    border-radius: 10px;
+}
+.hot_box{
+    height:25px;
+    width:25px;
+    margin-top:-4px;
+    margin-left:-2px;
+    background-size: contain;
+    background: url('http://weixin.51tiancai.com/tiancaibao/pages/index/images/hot_box.png') no-repeat left;
+}
+.std_rate{
+    overflow: hidden;
+    border-bottom: 1px solid #ecedf1;
+}
+.wordBreak{
+    word-break: break-all;
+}
+.hotSign{
+    color: #FFFFFF;
+    background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#ff7568), to(#fea679));
+    background: -moz-linear-gradient(left, #ff7568, #fea679);
+    background: -o-linear-gradient(left, #ff7568, #fea679);
+    padding: 1px 8px;
+    border-radius: 20px;
+    float: left;
+    margin-right:5px;
+    line-height: 16px;
+}
+.hotFont{
+    display: inline-block;
+    padding: 0 4px;
+    border: 1px solid #ff5f33;
+    height: 16px;
+    line-height: 16px;
+}
+.std_in{
+    width:33%;
+}
+.std_in1{
+    width:42%;
+    position: relative;
+}
+/* .std_in1:after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-right: 1px solid #ecedf1;
+    right: 24px;
+    top: 5px;
+} */
+@media screen and (max-width: 320px) {
+    .std_in1:after{
+        right: 10px;
+    }
+}
+.std_in1 p:nth-child(1){
+    height: 33px;
+    line-height: 31px;
+}
+.std_in2{
+    width: 36%;
+}
+.current_rate .std_in2{
+    width: 30%;
+}
+.std_in3{
+    width: 20%;
+    height: 50px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.std_in4{
+    width: 24%;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    position: relative;
+    overflow: hidden;
+}
+.total_num{
+    clear:both;
+    border-top:1px solid #ecedf1;
+    border-bottom:1px solid #ecedf1;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.total_text{
+    color:#a0abbb;
+    font-size: 12px;
+}
+.total_data{
+    /*margin-top:5px;*/
+    color:#fd4a44;
+    font-size:14px;
+}
+.total_left{
+    width:50%;
+    border-right:1px solid #ecedf1;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.total_right{
+    width:49%;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.intro_box{
+    padding-top:20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.intro{
+    width:33.3%;
+    color:#a0abbb;
+    font-size:12px;
+    text-align: center;
+}
+.intro_img{
+    width:35px;
+    height:35px;
+}
+.work{
+    position: relative;
+}
+.work span{
+    width: 82%;
+}
+.work i{
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #a0abbb;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profitWrap,.addInterest{
+    display: none;
+}
+
+.interestNum{
+    vertical-align: middle;
+}
+
+.index_popup{
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.index_popup .pop_img{
+    position: fixed;
+    width: 90%;
+    height: 450px;
+    top: -118px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    z-index: 1000;
+}
+
+.pop_img a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 450px;
+}
+
+.pop_img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.index_popup .closeBtn{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 43%;
+    bottom:-44px;
+    background: url('http://weixin.51tiancai.com/tiancaibao/pages/index/images/close_popup.png')no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1001;
+}
+
+.current_rate .invest_btn{
+    display: inline-block;
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #ff9f37;
+    border: 1px solid #ffc137;
+    border-radius: 25px;
+    background: #fff;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: 13px;
+}
+.advert{
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    height: 12px;
+    line-height: 12px;
+    transform: translate(-50%, 0);
+    z-index: 999;
+}
+.swiper-container .advert{
+    width: auto;
+}
