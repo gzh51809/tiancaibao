@@ -1,0 +1,87 @@
+.select_col .buy_amt {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ecedf1;
+    background: #fff;
+  }
+  .select_col .buy_amt input {
+    width: 95%;
+    height: 48px;
+    color: #999;
+  }
+  .select_col .buy_amt .buy_title {
+    display: inline-block;
+    width: 5%;
+    text-align: right;
+  }
+  .select_col .buy_amt span {
+    display: inline-block;
+    width: 50%;
+    height: 48px;
+    line-height: 48px;
+  }
+  a.submit {
+    width: 80%;
+    margin-left: 10%;
+  }
+  /*弹框*/
+  .dlog {
+    width: 260px;
+    margin-left: -130px;
+    background: #fff;
+    height: 160px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    z-index: 2;
+  }
+  .bg00a0e9 {
+    border-top: 1px solid #ecedf1;
+  }
+  .delog_btn {
+    display: inline-block;
+    width: 49%;
+    height: 38px;
+    line-height: 38px;
+  }
+  .delog_btn1 {
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #ecedf1;
+  }
+  .delog_btn2 {
+    border-bottom-right-radius: 5px;
+  }
+  .all_screen {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .care table{
+      width:100%;
+      border-collapse: collapse;
+      margin:auto
+  }
+  .care table th{
+      width:50%;
+  
+      border:1px solid #a0abbb;
+      color:#a0abbb;
+      line-height: 34px;
+      font-size:12px ;
+  }
+  .care table td{
+      border:1px solid #a0abbb;
+      text-align: center;
+      color:#a0abbb;
+  
+      font-size: 12px;
+      line-height: 34px;
+  }
+  
