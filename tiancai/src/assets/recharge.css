@@ -1,0 +1,106 @@
+.select_col {
+    background: #fff;
+  }
+  .select_col .buy_amt {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ecedf1;
+  }
+  .select_col .buy_amt input {
+    width: 95%;
+    height: 48px;
+  } 
+  .select_col .buy_amt .buy_title {
+    display: inline-block;
+    width: 5%;
+    text-align: right;
+  }
+  a.submit {
+    width: 80%;
+    margin-left: 10%;
+  }
+  table {
+    width: 100%;
+    line-height: 42px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #fff;
+  }
+  table tr {
+    border-bottom: 1px solid #ecedf1;
+  }
+  /*弹框*/
+  .dlog {
+    width: 260px;
+    margin-left: -130px;
+    background: #fff;
+    height: 160px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    z-index: 2;
+  }
+  .bg00a0e9 {
+    border-top: 1px solid #ecedf1;
+    width: 100%;
+    height: 38px;
+    bottom: 0;
+  }
+  .delog_btn {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 3px;
+  }
+  .all_screen {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #choose{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #choose span{
+    width: 16%;
+    float: left;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 3%;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #556677;
+    border-radius: 6px;
+    color:#556677;
+  }
+  #choose span.active{
+    width: 16%;
+    float: left;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 3%;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #ff5f33;
+    border-radius: 6px;
+    color:#ff5f33;
+  }

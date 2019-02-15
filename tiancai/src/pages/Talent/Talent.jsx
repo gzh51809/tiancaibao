@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-
 import { Route, Switch } from "react-router-dom";
-
 import Home from '../Home/Home.jsx';
 import Lend from '../Lend/Lend.jsx';
 import Service from '../Service/Service.jsx';
 import Mine from '../Mine/Mine.jsx';
-
 import Footer from '../../containers/Footer/Footer.jsx'
 
 class Talent extends Component {

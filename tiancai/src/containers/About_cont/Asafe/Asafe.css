@@ -1,0 +1,72 @@
+.bgff {
+    background: #fff;
+  }
+  .img1 {
+    display: block;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title1 {
+    width: 85%;
+  }
+  
+  .img4 {
+    width: 66%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .img5 {
+    width: 60%;
+  }
+  .rote180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+  .title2 {
+    width: 30%;
+  }
+  .img6 {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lh28{
+    line-height: 24px;
+  }
+  .cor1376eb{
+    color: #1376eb;
+  }
+  .h1tit{
+    height: 28px;
+    line-height: 28px;
+  }
+  .h1tit i.bg_l,.h1tit i.bg_r{
+    display: inline-block;
+    width: 32px;
+    height: 21px;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/app_safe/images/line.png") no-repeat center;
+  }
+  .tj24{
+    text-indent: 24px;
+  }
+  
+  .apy_list .items h1:before{
+    display: block;
+    content: '';
+    width: 0px;
+    height: 14px;
+    border-right: 4px solid #ffb933;
+    position: absolute;
+    left: 0px;
+    top: 7px;
+  }
+  .all_t {
+    background: #f1f5f8;
+  }
+  .whiteBg{
+      background: #ffffff;
+  }

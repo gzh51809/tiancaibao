@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+
 import {Link} from 'react-router-dom';
 
 import {connect} from 'react-redux';
 
-import './Footer.css';
 
 class Footer extends Component {
   //数据

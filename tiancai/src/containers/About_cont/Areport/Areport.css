@@ -1,0 +1,389 @@
+body {
+    display: block;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  html {
+    -ms-touch-action: none;
+  }
+  /* 禁止winphone默认触摸事件 */
+  .page-wrap {
+    position: relative;
+    height: 100%;
+  }
+  .page-wrap {
+    overflow: hidden;
+  }
+  
+  .page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contain {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    z-index: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .current .contain,
+  .slide .contain {
+    display: block;
+  }
+  .current {
+    display: block;
+    z-index: 1;
+  }
+  .slide {
+    display: block;
+    z-index: 2;
+  }
+  .swipe {
+    display: block;
+    z-index: 3;
+    transition-duration: 0ms!important;
+    -webkit-transition-duration: 0ms !important;
+  }
+  .onepage{
+    margin-top: 20%
+  }
+  .twopage,.threthpage,.fivepage,.sixpage,.ninepage{
+    padding-top: 20px
+  }
+  .threthpage,.fivepage,.sevenpage{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/report/images/bodybg.png") no-repeat center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  .twopage ul{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/report/images/thingbg.png) no-repeat center;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+  
+  .twopage ul li{
+    margin-top: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .twopage ul li label{
+    display: block;
+    width: 70%;
+    height: 48px;
+    color: #FFFFFF;
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/report/images/thing-bg.png) no-repeat center;
+    background-size: 100%;
+    line-height: 48px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    text-indent: 48px;
+    text-align: left;
+  }
+  .threthpage .area{
+    height: 134px;
+    width: 130px;
+    position: fixed;
+    bottom: 7%;
+    left: 5%;
+    text-align: left;
+  }
+  @media screen and (max-width: 359px){
+    .twopage ul li label{
+      text-indent: 36px;
+      font-size: 15px;
+    }
+    .threthpage .area{
+      bottom: 10%;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .sixpage ul li .mon-con p span{
+      font-size: 10px;
+    }
+    .ft-top{
+      font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 600px){
+    .twopage ul li label{
+      height: 68px;
+      line-height: 68px;
+      text-indent: 75px;
+    }
+    .ninepage table{
+      line-height: 54px;
+    }
+  }
+  .twopage ul li p{
+    width: 80%;
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 10%;
+  }
+  /* .top{
+    position: fixed;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 15px;
+    -webkit-animation:gogogo 2s infinite linear ;
+    z-index: 999;
+  } */
+  .bom{
+    max-width: 600px;
+    position: fixed;
+    bottom: 0;
+    left: 0
+  }
+  @media screen and (min-width: 600px){
+    .bom{
+      left: 50%;
+      margin-left: -300px
+    }
+  }
+  .threthpage ul{
+    margin-top: 10px;
+    padding: 10px 5px;
+    width: 80%;
+    margin-left: 10%;
+    background: #5076fd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .threthpage .area p{
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .threthpage .area p:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fd1d3a;
+    margin-right: 8px;
+  }
+  .threthpage .area p.two:before{
+    background: #fd4860;
+  }
+  .threthpage .area p.thre:before{
+    background: #fe8192;
+  }
+  .threthpage .area p.for_cor:before{
+    background: #fdafb9;
+  }
+  .threthpage .area p.fiv_cor:before{
+    background: #fec7cf;
+  }
+  .threthpage .area span{
+    color: #5076fd;
+  }
+  .c7f4fe{
+    color: #c7f4fe;
+  }
+  .d4ddfe{
+    color: #d4ddfe;
+  }
+  .forthpage ul{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+  .forthpage ul li{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 15px;
+    height: 40px;
+    background: url(http://weixin.51tiancai.com/tiancaibao/pages/report/images/forhbg.png) no-repeat center;
+    background-size: contain;
+  }
+  .forthpage ul li div span{
+    display: block;
+    margin-left: 20%;
+    line-height: 22px;
+  }
+  .mr40{
+    margin-right: 40px;
+  }
+  .fivepage .area{
+    margin-top: 10px;
+    margin-left: 18%;
+    text-align: left;
+  }
+  .fivepage .area p{
+    margin-bottom: 10px;
+  }
+  .fivepage .area p label{
+    color: #ffffff;
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    background: #2254da;
+    text-align: left;
+    padding-left: 10px;
+  }
+  .fivepage .area p span{
+    display: inline;
+    color: #f96900;
+  }
+  .fivepage .area p.two label{
+    background: #4778fc;
+  }
+  .fivepage .area p.thre label{
+    background: #7399ff;
+  }
+  .fivepage .area p.for label{
+    background: #93affc;
+  }
+  .fivepage .area p.fiv label{
+    background: #b6c9fd;
+  }
+  .sixpage ul{
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 10px;
+  }
+  .sixpage ul li .mon-con p{
+    margin-bottom: 6px;
+    clear: both;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .sixpage ul li .mon-con p span{
+    display: inline-block;
+    width: 50%;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+  }
+  .sixpage ul li .mon-con p span:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #6890fe;
+    margin-right: 3px;
+  } 
+  .sixpage ul li .mon-con p span.cor_ffad37:before{
+    background: #ffad37;
+  }
+  .sixpage ul li .mon-con p span.cor_c48ffb:before{
+    background: #c48ffb;
+  }
+  .sixpage ul li .mon-con p span.cor_8bded8:before{
+    background: #8bded8;
+  }
+  .sixpage ul li .mon-con p span.cor_7ac6fb:before{
+    background: #7ac6fb;
+  }
+  .sixpage ul li .mon-con p span.cor_ffdd41:before{
+    background: #ffdd41;
+  }
+  .ninepage .ent_con{
+    padding-top: 26px;
+    width: 80%;
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/report/images/bg8.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 10%;
+    padding-bottom: 32px;
+  }
+  table {
+    width: 88%;
+    margin-left: 6.5%;
+    line-height: 34px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #ffffff;
+    color: #5076fd;
+  }
+  table tr {
+    border-bottom: 1px solid #ecedf1;
+  }
+  table tr td img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .e1e8ff{
+    background: #e1e8ff;
+  }
+  .share{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    background: #5278fd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;;
+  }
+  @-webkit-keyframes gogogo {
+    0%{
+      -webkit-transform: translateY(0px);
+    }
+    50%{
+      -webkit-transform: translateY(-20px);
+    }
+    100%{
+      -webkit-transform: translateY(0px);
+    }
+  }
+  a.share:hover{
+    color: #ffffff;
+  }
+  .bg-line{
+    background: url("http://weixin.51tiancai.com/tiancaibao/pages/report/images/line.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+  
+  .wrap_all {
+    width:100%;
+    overflow: hidden;
+  }
+  .wrap_all ul {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .wrap_all ul li {
+    border-bottom:1px solid #ecedf1;
+    overflow: hidden;
+  }
+  .wrap_alls ul li a {
+    display: block;
+    padding: 0 15px;
+    line-height: 48px;
+    color: #333943;
+    overflow: hidden;
+  }
+  .wrap_alls ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #a0abbb;
+    border-bottom: 1px solid #a0abbb;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  

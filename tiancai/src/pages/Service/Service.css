@@ -1,0 +1,232 @@
+.wra_t {
+    width: 100%;
+    height: 154px;
+    overflow: hidden;
+  }
+  .wra_t .yelw {
+    width: 100%;
+    height: 144px;
+    background: #ffe200;
+  }
+  .wra_t .l_con {
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px;
+    top: 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background: url('http://weixin.51tiancai.com/tiancaibao/pages/serve/images/l_bg.png') no-repeat center center;
+  }
+  .wra_t .l_con .l_item {
+    width: 100%;
+  }
+  .wra_t .l_con .l_item p {
+    width: 100%;
+    height: 21px;
+    line-height: 21px;
+  }
+  .wra_t .l_con .l_item a.btn{
+    width: 32%;
+    border-radius: 20px;
+    margin: 10px auto 5px;
+  }
+  /*.wra_t .l_con .l_item p span.rank::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('/tiancaibao/pages/serve/images/other_1.png') no-repeat center;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+  }
+  .wra_t .l_con .l_item p span.ident::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('/tiancaibao/pages/serve/images/other_2.png') no-repeat center;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+  }*/
+  /*.wra_t .l_con .r_item {
+    width: 33%;
+    float: right;
+  }
+  .wra_t .l_con .r_item span {
+    display: block;
+  }
+  .wra_t .l_con .r_item span.bank_id::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('/tiancaibao/pages/serve/images/bank.png') no-repeat center;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+  }*/
+  .wra_cen ul {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    display: -webkit-box;
+    display: box;
+    background-color: #fff;
+  }
+  .wra_cen ul li {
+    width: 25%;
+    -wekit-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+  }
+  .wra_cen ul li .icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: url("http://weixin.51tiancai.com/tiancaibao/images/serve_03.png") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .wra_cen ul li i.port {
+    background-position: -5px 0;
+  }
+  .wra_cen ul li i.monb {
+    background-position: -78px 0;
+  }
+  .wra_cen ul li i.g_a {
+    background-position: -154px 1px;
+  }
+  .wra_cen ul li i.q_s {
+    background-position: -242px 1px;
+  }
+  .wra_cen ul li i.point {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    width: 8px;
+    height: 8px;
+    background: #f24c2c;
+    border-radius: 50%;
+  }
+  .wra_cen ul li .name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ff9b1a;
+  }
+  .wra_cen ul.fir {
+    
+    border-top: 1px solid #ecedf1;
+  }
+  .wra_cen ul.fir li{
+    width: 25%;
+  }
+  .wra_cen ul.fir li a{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .wra_cen .serve{
+      padding-bottom: 16px;
+      padding-top: 16px;
+  }
+  .wra_cen .serve li{
+      width:49%;
+  }
+  .wra_cen .serve li{
+      border-right:1px solid #ecedf1;
+      
+  }
+  .wra_item {
+    padding-bottom: 55px;
+    margin-top:-9px;
+  }
+  .wra_item ul {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .wra_item ul li {
+    border-bottom: 1px solid #ecedf1;
+    overflow: hidden;
+  }
+  .wra_item ul li a,
+  .wra_item ul li span,
+  .wra_item ul li strong {
+    display: block;
+  }
+  .wra_item ul li a {
+    padding: 0 15px;
+    line-height: 48px;
+    color: #333943;
+    overflow: hidden;
+  }
+  .wra_item ul li strong:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 2px;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #a0abbb;
+    border-bottom: 1px solid #a0abbb;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  /*����-����ȷ�ϵ���*/
+  .mask {
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+  }
+  .mask-wrap {
+    height: 150px;
+    width: 280px;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -140px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .mask-wrap .mask-btn {
+    width: 100%;
+    height: 38px;
+    border-top: 1px solid #ecedf1;
+    bottom: 0;
+  }
+  .mask-wrap .mask-btn a {
+    display: inline-block;
+    width: 49%;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+  }
+  .clos {
+    border-right: 1px solid #ecedf1;
+  }
+  .midle{
+    vertical-align: middle;
+  }
+  .fthome{
+    font-family: sans-serif;
+  }
+  

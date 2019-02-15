@@ -1,0 +1,148 @@
+.user_set {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .user_set ul {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .user_set ul li {
+    border-bottom: 1px solid #ecedf1;
+    overflow: hidden;
+  }
+  .user_set ul li a,
+  .user_set ul li span,
+  .user_set ul li strong {
+    display: block;
+  }
+  .user_set ul li a {
+    padding: 0 15px;
+    line-height: 48px;
+    overflow: hidden;
+  }
+  .user_set ul li strong:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 2px;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid #a0abbb;
+    border-bottom: 1px solid #a0abbb;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  #reSwicth strong:after{
+    content: '';
+    border: 0px;
+    width: 0;
+    height: 0;
+  }
+  #reSwicth strong{
+    display: block;
+    width: 48px;
+    height: 24px;
+    top: 12px;
+    border-radius: 20px;
+    border: 1px solid #ecedf1;
+  }
+  #reSwicth strong i{
+    display: block;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border: 1px solid #ecedf1;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 1px #cccccc;
+    -moz-box-shadow: 0px 0px 5px 1px #cccccc;
+    box-shadow: 0px 0px 5px 1px #cccccc;
+  }
+  #reSwicth strong.open{
+    background: #ffe200;
+  }
+  #reSwicth strong.open i{
+    right: 0;
+  }
+  
+  .rulesMask{
+    position: absolute;
+    z-index: 101;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .rulesMask .rulesWra{
+    width: 92%;
+    height: 400px;
+    left: 4%;
+    top: 50%;
+    margin-top: -200px;
+    position: fixed;
+    background: #fff;
+    color: #556677;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.5;
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .rulesMask .rulesWra .rulesCon{
+    width: 100%;
+    height: 360px;
+    overflow-y: scroll;
+  }
+  .rulesMask .rulesWra a{
+    display: block;
+    width: 49%;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+  }
+  
+  /*银行卡操作弹框*/
+  .mask {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+  }
+  .btn_wra {
+    width: 100%;
+    max-width: 600px;
+    height: 120px;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+  }
+  .btn_wra a,
+  .btn_wra a.submit {
+    display: block;
+    width: 80%;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 10%;
+  }
+  a#submit {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    background: #FFFFFF !important;
+    color: #f24c2c;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 0 !important;
+  }
+  

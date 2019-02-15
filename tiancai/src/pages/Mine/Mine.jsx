@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //css
 import './Mine.css';
 //引入子组件
+
 import Mheader from "../../containers/Mheader/Mheader.jsx";
 import Mlists from "../../containers/Mlists/Mlists.jsx";
 class Mine extends Component {
@@ -13,7 +14,6 @@ class Mine extends Component {
     };
   }
   //事件
-
 
   //html
   render() {

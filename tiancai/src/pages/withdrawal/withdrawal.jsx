@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './withdrawal.css';
 
 class withdrawal extends Component {
     render() {

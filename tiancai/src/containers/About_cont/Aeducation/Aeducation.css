@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    background: #f1f5f8;
+  }
+  
+  .list_wrap .list_item{
+      margin-bottom: 7px;
+      background: #fff;
+      border-top: 1px solid #ecedf1;
+      border-bottom: 1px solid #ecedf1;
+  }
+  .list_item .time{
+      margin: 6px 0;
+  }
+  
+  .news_con {
+    padding: 20px 22px;
+  }
+  
+  .article_text{
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+  }
+  

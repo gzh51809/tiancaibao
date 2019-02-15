@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
+import './Service.css';
 
-class Lend extends Component {
+import Sheader from '../../containers/Sheader/Sheader.jsx';
+import Sbody from '../../containers/Sbody/Sbody.jsx';
+
+class Service extends Component {
   render() {
     return (
-      <div>
-       		服务
-      </div>
+        <div>
+            <Sheader />
+            <Sbody />
+        </div>
     );
   }
 }
 
-export default Lend;
+export default Service;

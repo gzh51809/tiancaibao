@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //css
-import './Home.css';
+
 import '../../assets/index.css';
 import '../../assets/swiper.css';
 //引入子组件
